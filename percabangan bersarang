@@ -1,0 +1,11 @@
+print("-" * 25)
+umur = 20
+status = "mahasiswa"
+
+if umur >= 18:
+    if status == "mahasiswa":
+        print("Anda dewasa dan seorang mahasiswa")
+    else:
+        print("Anda dewasa tapi bukan mahasiswa")
+else:
+    print("Anda belum dewasa")
