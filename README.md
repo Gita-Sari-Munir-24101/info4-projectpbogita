@@ -38,3 +38,49 @@ Nilai B
 # Hasil
 Karena umur ≥ 18 dan status adalah mahasiswa, maka program menampilkan:
 Anda dewasa dan seorang mahasiswa
+
+# Tipe Data Mutable (List)
+Tipe data mutable adalah tipe data yang nilainya dapat diubah setelah objek dibuat tanpa harus membuat objek baru. Salah satu contoh tipe data mutable dalam bahasa pemrograman Python adalah list.
+
+# Pengertian List
+List merupakan struktur data dalam Python yang digunakan untuk menyimpan sekumpulan data dalam satu variabel. Data yang disimpan di dalam list dapat berupa berbagai tipe data, seperti integer, float, string, maupun tipe data lainnya. List ditulis menggunakan tanda kurung siku [] dan setiap elemen dipisahkan dengan tanda koma.
+
+# Sifat Mutable pada List
+List bersifat mutable, artinya elemen di dalam list dapat:
+
+- Diubah nilainya
+- Ditambahkan elemen baru
+- Dihapus elemennya
+
+# Perubahan tersebut tidak membuat list baru, tetapi langsung mengubah list yang sudah ada.
+Contoh List (Tipe Data Mutable)
+angka = [1, 2, 3, 4]
+
+# Jika salah satu elemen diubah:
+
+1. angka[2] = 10
+print(angka)
+
+# Hasil:
+[1, 2, 10, 4]
+
+# Contoh di atas menunjukkan bahwa isi list dapat diubah, sehingga list termasuk tipe data mutable.
+Operasi pada List
+
+1. Beberapa operasi yang dapat dilakukan pada list antara lain:
+- Menambah elemen menggunakan append()
+- Menghapus elemen menggunakan remove() atau pop()
+- Mengubah elemen dengan mengakses indeks list
+- Mengurutkan data menggunakan sort()
+
+# Contoh Operasi List
+- buah = ["apel", "mangga", "jeruk"]
+- buah.append("pisang")
+- buah.remove("mangga")
+- print(buah)
+
+# Hasil:
+['apel', 'jeruk', 'pisang']
+
+
+
