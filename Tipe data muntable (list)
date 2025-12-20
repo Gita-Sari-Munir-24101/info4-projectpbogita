@@ -1,0 +1,9 @@
+
+def tambah_elemen(daftar):
+    daftar.append("Apel")
+    print(f"Di dalam function: {daftar}")
+
+buah = ["Mangga", "Jeruk"]
+print(f"Sebelum function dipanggil: {buah}")
+tambah_elemen(buah)
+print(f"Setelah function dipanggil: {buah}")
